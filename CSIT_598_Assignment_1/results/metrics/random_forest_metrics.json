@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.9687,
+  "precision_macro": 0.9685034063834943,
+  "recall_macro": 0.9684247667166274,
+  "f1_macro": 0.9684452768588582,
+  "train_time_sec": 5.822963584039826,
+  "pred_time_sec": 0.06675012496998534,
+  "classification_report": "              precision    recall  f1-score   support\n\n           0       0.98      0.99      0.98       986\n           1       0.99      0.99      0.99      1125\n           2       0.97      0.97      0.97       999\n           3       0.96      0.96      0.96      1020\n           4       0.98      0.97      0.97       975\n           5       0.97      0.96      0.96       902\n           6       0.97      0.99      0.98       982\n           7       0.97      0.97      0.97      1042\n           8       0.96      0.96      0.96       975\n           9       0.94      0.95      0.94       994\n\n    accuracy                           0.97     10000\n   macro avg       0.97      0.97      0.97     10000\nweighted avg       0.97      0.97      0.97     10000\n",
+  "model_name": "random_forest",
+  "n_estimators": 150,
+  "max_depth": null
+}

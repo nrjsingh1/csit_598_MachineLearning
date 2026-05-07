@@ -1,0 +1,3 @@
+Best-performing model by accuracy: xgboost (0.9695)
+Fastest training model: MultinomialNB (0.0178 sec)
+Trade-off: highest-accuracy models are generally slower than the fastest baselines.

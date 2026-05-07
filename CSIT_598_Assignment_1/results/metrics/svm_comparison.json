@@ -1,0 +1,7 @@
+{
+  "linear_accuracy": 0.9347,
+  "rbf_accuracy": 0.9588,
+  "accuracy_delta_rbf_minus_linear": 0.02410000000000001,
+  "linear_train_time_sec": 112.91812220803695,
+  "rbf_train_time_sec": 80.99550499999896
+}

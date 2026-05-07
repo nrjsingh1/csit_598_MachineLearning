@@ -1,0 +1,26 @@
+{
+  "bagging": {
+    "accuracy": 0.9487,
+    "f1_macro": 0.9481341811702573,
+    "train_time_sec": 35.00806233298499,
+    "pred_time_sec": 0.20164766599191353
+  },
+  "random_forest": {
+    "accuracy": 0.9687,
+    "f1_macro": 0.9684452768588582,
+    "train_time_sec": 5.822963584039826,
+    "pred_time_sec": 0.06675012496998534
+  },
+  "adaboost": {
+    "accuracy": 0.8324,
+    "f1_macro": 0.8318568944244458,
+    "train_time_sec": 118.3886365420185,
+    "pred_time_sec": 0.1474873329862021
+  },
+  "xgboost": {
+    "accuracy": 0.9695,
+    "f1_macro": 0.9692514319487398,
+    "train_time_sec": 192.53337820799788,
+    "pred_time_sec": 0.08693204098381102
+  }
+}

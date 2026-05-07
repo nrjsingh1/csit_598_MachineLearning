@@ -1,0 +1,5 @@
+{
+  "gaussian_accuracy": 0.5359,
+  "multinomial_accuracy": 0.8307,
+  "accuracy_delta_multinomial_minus_gaussian": 0.29479999999999995
+}

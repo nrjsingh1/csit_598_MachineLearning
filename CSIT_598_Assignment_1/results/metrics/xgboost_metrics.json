@@ -1,0 +1,14 @@
+{
+  "accuracy": 0.9695,
+  "precision_macro": 0.969286692339469,
+  "recall_macro": 0.9692476300041604,
+  "f1_macro": 0.9692514319487398,
+  "train_time_sec": 192.53337820799788,
+  "pred_time_sec": 0.08693204098381102,
+  "classification_report": "              precision    recall  f1-score   support\n\n           0       0.97      0.99      0.98       986\n           1       0.99      0.99      0.99      1125\n           2       0.97      0.97      0.97       999\n           3       0.97      0.96      0.96      1020\n           4       0.98      0.97      0.97       975\n           5       0.97      0.96      0.96       902\n           6       0.97      0.98      0.98       982\n           7       0.97      0.97      0.97      1042\n           8       0.97      0.96      0.97       975\n           9       0.94      0.94      0.94       994\n\n    accuracy                           0.97     10000\n   macro avg       0.97      0.97      0.97     10000\nweighted avg       0.97      0.97      0.97     10000\n",
+  "train_subset_size": 30000,
+  "model_name": "xgboost",
+  "n_estimators": 150,
+  "max_depth": 6,
+  "learning_rate": 0.1
+}

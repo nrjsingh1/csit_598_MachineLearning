@@ -1,0 +1,13 @@
+{
+  "accuracy": 0.8307,
+  "precision_macro": 0.8364347799413714,
+  "recall_macro": 0.8275338778098302,
+  "f1_macro": 0.828955804372195,
+  "train_time_sec": 0.017820041975937784,
+  "pred_time_sec": 0.020352708001155406,
+  "classification_report": "              precision    recall  f1-score   support\n\n           0       0.91      0.92      0.91       986\n           1       0.88      0.94      0.91      1125\n           2       0.89      0.83      0.86       999\n           3       0.79      0.81      0.80      1020\n           4       0.86      0.75      0.80       975\n           5       0.84      0.66      0.74       902\n           6       0.88      0.92      0.90       982\n           7       0.95      0.84      0.89      1042\n           8       0.67      0.76      0.71       975\n           9       0.69      0.84      0.76       994\n\n    accuracy                           0.83     10000\n   macro avg       0.84      0.83      0.83     10000\nweighted avg       0.84      0.83      0.83     10000\n",
+  "model_name": "MultinomialNB",
+  "best_params": {
+    "alpha": 0.1
+  }
+}

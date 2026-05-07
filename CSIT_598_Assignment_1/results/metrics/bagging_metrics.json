@@ -1,0 +1,13 @@
+{
+  "accuracy": 0.9487,
+  "precision_macro": 0.9482963426605655,
+  "recall_macro": 0.9481303052824144,
+  "f1_macro": 0.9481341811702573,
+  "train_time_sec": 35.00806233298499,
+  "pred_time_sec": 0.20164766599191353,
+  "classification_report": "              precision    recall  f1-score   support\n\n           0       0.95      0.99      0.97       986\n           1       0.97      0.98      0.98      1125\n           2       0.95      0.95      0.95       999\n           3       0.95      0.92      0.93      1020\n           4       0.95      0.94      0.94       975\n           5       0.94      0.93      0.93       902\n           6       0.97      0.97      0.97       982\n           7       0.97      0.95      0.96      1042\n           8       0.94      0.93      0.93       975\n           9       0.90      0.93      0.91       994\n\n    accuracy                           0.95     10000\n   macro avg       0.95      0.95      0.95     10000\nweighted avg       0.95      0.95      0.95     10000\n",
+  "model_name": "bagging",
+  "base_estimator": "DecisionTree(max_depth=15)",
+  "n_estimators": 50,
+  "max_samples": 0.7
+}

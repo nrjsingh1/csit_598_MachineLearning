@@ -1,0 +1,13 @@
+{
+  "accuracy": 0.8324,
+  "precision_macro": 0.835108957295413,
+  "recall_macro": 0.8308723147129106,
+  "f1_macro": 0.8318568944244458,
+  "train_time_sec": 118.3886365420185,
+  "pred_time_sec": 0.1474873329862021,
+  "classification_report": "              precision    recall  f1-score   support\n\n           0       0.95      0.84      0.89       986\n           1       0.92      0.95      0.94      1125\n           2       0.86      0.84      0.85       999\n           3       0.78      0.80      0.79      1020\n           4       0.80      0.82      0.81       975\n           5       0.73      0.82      0.77       902\n           6       0.94      0.89      0.91       982\n           7       0.87      0.79      0.83      1042\n           8       0.81      0.78      0.79       975\n           9       0.70      0.78      0.74       994\n\n    accuracy                           0.83     10000\n   macro avg       0.84      0.83      0.83     10000\nweighted avg       0.84      0.83      0.83     10000\n",
+  "model_name": "adaboost",
+  "base_estimator": "DecisionTree(max_depth=2)",
+  "n_estimators": 120,
+  "learning_rate": 0.8
+}

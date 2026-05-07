@@ -1,0 +1,15 @@
+{
+  "accuracy": 0.9588,
+  "precision_macro": 0.9593138835407652,
+  "recall_macro": 0.958357303321699,
+  "f1_macro": 0.9587022619490264,
+  "train_time_sec": 80.99550499999896,
+  "pred_time_sec": 61.82800683303503,
+  "classification_report": "              precision    recall  f1-score   support\n\n           0       0.98      0.99      0.98       986\n           1       0.98      0.99      0.98      1125\n           2       0.95      0.96      0.95       999\n           3       0.96      0.94      0.95      1020\n           4       0.97      0.95      0.96       975\n           5       0.96      0.95      0.96       902\n           6       0.97      0.97      0.97       982\n           7       0.90      0.96      0.93      1042\n           8       0.97      0.95      0.96       975\n           9       0.95      0.94      0.94       994\n\n    accuracy                           0.96     10000\n   macro avg       0.96      0.96      0.96     10000\nweighted avg       0.96      0.96      0.96     10000\n",
+  "model_name": "SVM_RBF",
+  "best_params": {
+    "C": 10.0,
+    "gamma": "scale"
+  },
+  "train_subset_size": 20000
+}

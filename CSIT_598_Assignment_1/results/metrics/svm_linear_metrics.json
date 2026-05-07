@@ -1,0 +1,13 @@
+{
+  "accuracy": 0.9347,
+  "precision_macro": 0.9342026124699239,
+  "recall_macro": 0.9336629154600005,
+  "f1_macro": 0.9337514257156938,
+  "train_time_sec": 112.91812220803695,
+  "pred_time_sec": 10.2166981670307,
+  "classification_report": "              precision    recall  f1-score   support\n\n           0       0.96      0.98      0.97       986\n           1       0.95      0.99      0.97      1125\n           2       0.92      0.92      0.92       999\n           3       0.90      0.91      0.91      1020\n           4       0.93      0.95      0.94       975\n           5       0.92      0.90      0.91       902\n           6       0.95      0.96      0.96       982\n           7       0.95      0.94      0.95      1042\n           8       0.93      0.88      0.90       975\n           9       0.92      0.91      0.92       994\n\n    accuracy                           0.93     10000\n   macro avg       0.93      0.93      0.93     10000\nweighted avg       0.93      0.93      0.93     10000\n",
+  "model_name": "SVM_Linear",
+  "best_params": {
+    "C": 0.1
+  }
+}
